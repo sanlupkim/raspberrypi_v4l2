@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#This script is a part of mv_mipi_i2c.sh
+#This script is a part of gx_mipi_i2c.sh
 
 ######################reglist###################################
 
@@ -130,7 +130,6 @@ Exposure_Delay=0x1010;
 GPIO1_OutSelect=0x1020;
 GPIO1_Reverse=0x1028;
 
-# 全局默认总线（单相机模式用）
 # I2C_DEV
 I2C_DEV=10;
 
